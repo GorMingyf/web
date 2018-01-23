@@ -1,0 +1,90 @@
+
+body {
+    background-color:#F0FFFF;
+}
+
+h1 {
+    color: rgb(164, 164, 0);
+    font-family:sans-serif;
+    letter-spacing: 0.1em;
+    text-align:center; 
+    font-size: 30pt;
+}
+
+h2 {
+    color: rgb(164, 164, 0);
+    font-family:sans-serif;
+    letter-spacing: 0.1em;
+    text-align:left; 
+    font-size: 20pt;
+}
+
+h3 {
+    color: rgb(164, 164, 0);
+    font-family:sans-serif;
+    letter-spacing: 0.1em;
+    text-align:left; 
+    text-align:left;
+    font-size: 18pt;
+    text-indent:1.5cm
+}
+
+img {
+     float:left;
+     margin-left:2px;
+     margin-right: 5px;
+}
+
+p {
+    color: #404040;
+    font-size:15pt;
+    font-family: sans-serif;
+    text-indent:2em;
+    text-align:left;
+    line-height: 20pt;
+}
+
+.image {
+    width: 180px;
+    height:150px;
+    margin:20px;
+}
+
+.left {
+    font-size:10pt; 
+    color:grey;
+    font-style: italic;
+    position: relative;
+    bottom:10px;
+    left:50px;
+}
+
+.div-pie {
+    width:1200px;
+    height:500px;
+    float:left;
+}
+
+.pie-type {
+    width:450px;
+    height:180px;
+    float:left;
+}
+
+.right {
+    font-size:10pt; 
+    color:grey;
+    font-style: italic;
+    position: relative;
+    bottom:10px;
+    left:150px;
+}
+
+a {
+    text-decoration:underline; 
+    font-size:25pt; 
+    color: rgb(164, 164, 0);
+    float:right;
+    position:relative;
+    top:300px;
+}
