@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Sign Up </title>
+		<link rel="stylesheet" type="text/css" href="signup.css">
+		<script type="text/javascript" src="signup.js"> </script>
+	</head>
+
+	<body>
+		<div id = "SignUp">
+			<form  method="POST" action="http://127.0.0.1:8000/info.html"
+				 onsubmit="return CheckInput()">
+				<div id = "Title">用户注册</div>
+				<div class="entry">用户名:
+					<input id="username" name = "username" type = "text"/>
+					<div class = "error" id = "error1"> </div>
+				</div>	
+				<div class="entry">学号: 
+					<input id="userid" name = "userid"  type = "text"/>
+					<div class = "error" id = "error2"></div>
+				</div>
+				<div class="entry">电话:
+					<input id="Tel" name = "tel"  type = "text"/>
+					<div class = "error" id = "error3"></div>
+				</div>
+				<div class="entry">邮箱:
+					<input id="Mail" name = "mail"  type = "text"/>
+					<div class = "error" id = "error4"></div>
+				</div>
+				<input type="submit" id="submit1" name="mysubmit" value="Submit"/>
+				<input type="reset" id="reset" value="Reset" />
+			</form>
+			<script type="text/javascript" src="jquery.js"> </script>
+		</div>
+		<div id = "description">
+			<p>注意:</p>
+			<ol>
+				<li>用户名由6~18位英文字母、数字或下划线组成，必须以英文字母开头;</li>
+				<li>学号是8位数字，不能以0开头;	</li>
+				<li>电话号码是11位数字，且不能以0开头;</li>
+				<li>邮箱按照讲义中的规则进行校验。</li>
+			</ol>
+		</div>
+	</body>
+</html>

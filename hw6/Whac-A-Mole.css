@@ -1,0 +1,229 @@
+#Whac-A-Mole {
+	width:500px;
+	height:500px;
+	margin:auto;
+	margin-top:30px;
+}
+
+#title {
+	text-align: center;
+	font-size:14pt;
+}
+
+p {
+	font-size: 9pt;
+	text-align: center;
+}
+
+#output {
+	width:130px;
+	height:18px;
+	float:left;
+	margin-top:34px;
+	margin-left:-180px;
+	border:1px solid #888888;
+	padding-left: 5px;
+}
+
+.button {
+	margin:auto;
+	width:330px;
+	height:50px;
+	font-size: 10pt;
+}
+
+#control {
+	width:190px;
+	height:18px;
+	border:none;
+	border-radius: 3px;
+	float:left;
+	margin-left:-12px;
+	padding-left: 0;
+}
+
+#startbutton {
+	font-size: 9pt;
+	width:80px;
+	outline: none;
+	border:1px solid #888888;
+	background: #ffffff;
+	transition: border 1s;
+}
+
+#startbutton:hover {
+	margin-top:-10px;
+	font-size: 9pt;
+	height:18px;
+	width:80px;
+	outline: none;
+	box-shadow: 1px 1px 5px 5px #DCDCDC;
+	border-radius: 3px;
+}
+
+#stopbutton {
+	float:right;
+	font-size: 9pt;
+	width:80px;
+	border: 1px solid #888888;
+	background: #ffffff;
+	transition: border 1s;
+	margin-right:5px;
+	outline: none;
+	margin-top: 1px;
+}
+
+#stopbutton:hover {
+	margin-top:0px;
+	font-size: 9pt;
+	height:18px;
+	width:80px;
+	outline: none;
+	box-shadow: 1px 1px 5px 5px #DCDCDC;
+	border-radius: 3px;
+	margin-top:1px;
+}
+
+#Keeping {
+	width:95px;
+	float:right;
+	margin-top:0px;
+}
+
+.text {
+	margin-top: 6px;
+	float:right;
+}
+
+#record1 {
+	width:40px;
+	height:16px;
+	font-size: 8pt;
+	float:left;
+	border:1px solid #888888;
+	float:right;
+	margin-left:5px;
+	margin-right:5px;
+	padding-left: 3px;
+}
+
+#record2 {
+	width:40px;
+	height:16px;
+	font-size: 8pt;
+	float:left;
+	border:1px solid #888888;
+	float:right;
+	margin-top:3px;
+	margin-left:5px;
+	margin-right:5px;
+	padding-left: 3px;
+}
+
+.checkerboard {
+	width:330px;
+	height:220px;
+	margin:auto;
+	margin-top:30px;
+}
+
+.line1 {
+	width:300px;
+	height:1.5px;
+	margin-top: 10px;
+	background: #888888;
+}
+
+.line2 {
+	width:300px;
+	height:1.5px;
+	margin-top: 25px;
+	background: #888888;
+}
+
+#totalbutton {
+	width:320px;
+	height: 175px;
+	margin-left: 7px;
+	margin-bottom: 0px;
+	margin-top:3px;
+}
+
+.radiusbutton {
+	width:18px;
+	height:18px;
+	margin-left:1px;
+	margin-top: 0px;
+	display: none;
+}
+
+.radiobutton {
+	width:18px;
+	height:18px;
+	border:1px solid #888888;
+	border-radius: 50%;
+	margin-right: 10px;
+	margin-top:8px;
+	display: inline-block;
+	overflow: hidden;
+	transition: border 1s;
+}
+
+.radiobutton:hover {
+	width:18px;
+	height:18px;
+	border-radius: 50%;
+	margin-right: 10px;
+	margin-top:8px;
+	display: inline-block;
+	overflow: hidden;
+	box-shadow: 1px 1px 3px 3px #DCDCDC;
+}
+
+.labelradio {
+	border: 8px solid #ffffff;
+	width:5px;
+	height:5px;
+	border-radius: 50%;
+	float:left;
+	margin-left: -0.5px;
+	margin-top:-0.8px;
+	overflow: hidden;
+}
+
+#intro {
+	text-align: left;
+	font-size: 12pt;
+	margin-left: 5px;
+}
+
+ol {
+	font-size: 8pt;
+	text-align: left;
+	margin-left: -10px;
+	margin-top: -10px;
+	font-family: sans-serif;
+}
+
+#totalbutton .change {
+	border: 7px solid #0000FF;
+	width:5px;
+	height:5px;
+	border-radius: 50%;
+	float:left;
+	margin-left: -0.5px;
+	margin-top:0px;
+}
+
+#totalbutton .change1 {
+	border: 7px solid #ffffff;
+	width:5px;
+	height:5px;
+	border-radius: 50%;
+	float:left;
+	margin-left: -0.5px;
+	margin-top:0px;
+}
+
+
+

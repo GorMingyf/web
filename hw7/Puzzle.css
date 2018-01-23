@@ -1,0 +1,206 @@
+html {
+	margin:auto;
+	padding:auto;
+	width:100%;
+	hieght:100%;
+}
+
+#frame {
+	width:400px;
+	height:530px;
+	background: white;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	box-shadow: 6px 6px 2em gray;
+}
+
+#name {
+	font-size: 20pt;
+	width:110px;
+	height:36px;
+	font-weight: bold;
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+	top:5px;
+}
+
+#state {
+	width:300px;
+	height:25px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#restart {
+	width:120px;
+	height:40px;
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: center;
+	line-height: 2em;
+	color: white;
+	letter-spacing: 0.1em;
+	background: #4385F1;
+	border:none;
+	margin-left: auto;
+	margin-right:auto;
+	position: relative;
+	top:400px;
+	box-shadow: 2px 2px 2px 2px #C7C7C7;
+}
+
+#restart:hover {
+	opacity: .9;
+    box-shadow: 0px 0px 8px #000;
+    cursor: pointer;
+}
+
+#imgArea {
+	width:380px;
+	height:380px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -30px;
+}
+
+.image-panada {
+	width:93px;
+	height:93px;
+	border:1px solid #D3D3D3;
+	float:left;
+	display: inline-block;
+	background-image: url("panda.jpg");
+	transform: 1s;
+}
+
+.image-panada:hover {
+	width:93px;
+	height:93px;
+    opacity: .8;
+    box-shadow: 0px 0px 8px #000;
+    background-image: url("panda.jpg");
+    cursor: pointer;
+}
+
+.blank {
+	width:93px;
+	height:93px;
+	border:1px solid white;
+	background: white;
+	float:left;
+}
+
+.blank:hover {
+	width:93px;
+	height:93px;
+	opacity: .8;
+    box-shadow: 0px 0px 8px #000;
+	background: white;
+	float:left;
+}
+
+.pos0 .pos1 .pos2 .pos3 {
+	top:0px;
+}
+
+.pos4 .pos5 .pos6 .pos7 {
+	top:95px;
+}
+
+.pos8 .pos9 .pos10 .pos11 {
+	top:190px;
+}
+
+.pos13 .pos13 .pos14 .pos15 {
+	top:285px;
+}
+
+.pos0 .pos4 .pos8 .pos12 {
+	left:0px;
+}
+
+.pos1 .pos5 .pos9 .pos13 {
+	left:95px;
+}
+
+.pos2 .pos6 .pos10 .pos14 {
+	left:190px;
+}
+
+.pos3 .pos7 .pos11 .pos15 {
+	left:285px;
+}
+
+
+#image0 {
+	background-position: 0px 0px;
+}
+
+#image1 {
+	background-position: -95px 0px;
+}
+
+#image2 {
+	background-position: -190px 0px;
+}
+
+#image3 {
+	background-position: -285px 0px;
+}
+
+#image4 {
+	background-position: 0px -95px;
+}
+
+
+#image5 {
+	background-position: -95px -95px;
+}
+
+
+#image6 {
+	background-position: -190px -95px;
+}
+
+#image7 {
+	background-position: -285px -95px;
+}
+
+
+#image8 {
+	background-position: 0px -190px;
+}
+
+#image9 {
+	background-position: -95px -190px;
+}
+
+#image10 {
+	background-position: -190px -190px;
+}
+
+#image11 {
+	background-position: -285px -190px;
+}
+
+#image12 {
+	background-position: 0px -285px;
+}
+
+#image13 {
+	background-position: -95px -285px;
+}
+
+#image14 {
+	background-position: -190px -285px;
+}
+
+#image15 {
+	opacity: 0;
+	background-position: -285px -285px;
+	background-image: none;
+}

@@ -1,0 +1,139 @@
+html {
+	width:100%;
+	height: 100%;
+	margin:0px;
+	padding:0px;
+	background: #F5F8FA;
+}
+
+body {
+	margin-top:50px;
+	width:410px;
+	margin:auto;
+	color:red;
+}
+
+#Title {
+	width:80px;
+	font-size: 14pt;
+	height:30px;
+	font-weight: bold;
+	margin-left:115px;
+	margin-right: auto;
+	color:black;
+}
+
+#SignUp {
+	color:black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:50px;
+	width:460px;
+	height:310px;
+}
+
+.entry {
+	width:450px;
+	height:32px;
+	margin-top:20px;
+	float:left;
+}
+
+input {
+	height:26px;
+	width:160px;
+	background: #FAFBFC;
+	border-style: none;
+	border:1.5px solid #D1D5DA;
+	border-radius: 5px;
+	float:right;
+	margin-right:230px;
+}
+
+p {
+	font-size: 11px;
+	margin-top:0px;
+	float: left;
+	font-weight: bold;
+}
+
+.error {
+	width:120px;
+	height:30px;
+	margin-left:222px;
+	text-align: left;
+	line-height: 0.4em;
+	position: relative;
+	top:-20px;
+	color:red;
+	font-size: 10pt;
+}
+
+#reset {
+	width:150px;
+	height:30px;
+	margin-top: 20px;
+	font-size: 12pt;
+	text-align: center;
+	line-height: 2em;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+	background: #88CA79;
+	border:none;
+	float:left;
+	box-shadow: 1px 1px 1px 1px #C7C7C7;
+	position: relative;
+	bottom: 25px;
+	margin-left: 155px;
+}
+
+#reset:hover {
+	opacity: 0.9;
+	box-shadow: 0px 0px 8px #000;
+	cursor: pointer;
+	background: #37A967;
+}
+
+#submit1 {
+	width:150px;
+	height: 30px;
+	font-size: 12pt;
+	text-align: center;
+	line-height: 2em;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	background: #88CA79;
+	border:none;
+	float:left;
+	box-shadow: 1px 1px 1px 1px #C7C7C7;
+	position: relative;
+	bottom: -25px;
+	margin-left: -15px;
+}
+
+#submit1:hover {
+	opacity: 0.9;
+	box-shadow: 0px 0px 8px #000;
+	cursor: pointer;
+	background: #37A967;
+}
+
+form {
+	padding-left: 50px;
+	padding-top: 10px;
+	width:350px;
+	height:500px;
+	background: white;
+	border-radius: 5px;
+}
+
+#description {
+	color:black;
+	padding-top: 30px;
+	padding-left:50px; 
+	width:320px;
+	height:100px;
+	font-size: 9pt;
+	margin-left
+	background-color:gray;
+}
